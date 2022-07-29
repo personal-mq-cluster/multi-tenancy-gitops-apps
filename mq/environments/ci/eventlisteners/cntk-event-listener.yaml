@@ -24,4 +24,4 @@ spec:
         filter: header.match('X-GitHub-Event', 'push') && body.ref == 'refs/heads/mq-spring-personal-mq-cluster' && body.repository.full_name == 'personal-mq-cluster/mq-spring-app'
     name: mq-spring-app-dev
     template:
-      ref: mq-spring-app-devEOF
+      ref: mq-spring-app-dev
